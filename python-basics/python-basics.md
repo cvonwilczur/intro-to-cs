@@ -143,3 +143,52 @@ else:
   print('z is least')
 
 These are examples of control flow. These programs run in constant time, as the maximum time to run the program depends only on the length of the program.
+
+### Strings
+
+Strings are a sequence of letters, special characters, spaces and digits. They are all enclosed within double or single quotes.
+
+We can concatenate strings, for example:
+
+name = "eric"
+
+greet = "hi" + " " + name
+
+We can also ask for the length of a string:
+
+len("eric")
+
+We can also index elements at a specific space, such as:
+
+"eric"[2]
+
+
+We can also slice items out using the same notation:
+
+"eric"[2:3]
+
+### IDEs  
+
+It's often painful to just type things into a shell. It's preferable to use a text editor or integrated development environment.
+
+
+### While Loops and For Loops
+
+n = 0
+while n < 5:
+  print(n)
+  n = n + 1
+
+
+for n in range(5):
+  print(n)
+
+## Iteration
+
+- the concept of iteration lets us extend branching algorithms to be able to write programs of arbitrary complexity
+
+### Guess and Check methods
+
+ - one example of an algorithm. we come up with a way of systematically making guesses and checking if they are correct.
+
+ 
